@@ -27,21 +27,30 @@
         <label class="TitlePage">Form </label>
         <div class="sousForm">
         <div class="CategoryInter row">
+            <div class="CaseCenter">
+                <label class="TitleCategory mb-3">Case Id</label>
+                <label>{{Result.CaseId}}</label>
+            </div>
             <div class="col-lg-6 col-xs-12 Cat">
                 <div class="CatContent" >
 
+                    
+
                     <div>
                         <label for="equipements" class="CatText">equipements :</label>
-                        <label></label> <!--Result Equipment ID-->
+                        <label class="CatText" >{{Result.equipment_id}} </label> <!--Result Equipment ID-->
                     </div>
                     <div>
                         <label for="equipements_categories" class="CatText">equipements Categories :</label>
+                        <label class="CatText"> {{Result.equipment_category}} </label>
                     </div>
                     <div>
                         <label for="equipements_area" class="CatText">equipements area :</label>
+                        <label class="CatText"> {{Result.equipment_area}} </label>
                     </div>
                     <div>
                         <label for="date" class="CatText" >Date :</label>
+                        <label class="CatText">{{Result.completion_date}}  </label>
                     </div>
 
                 </div>
@@ -52,14 +61,17 @@
 
                     <div>
                         <label for="action_recommendation_id" class="CatText" >Recommendation Id:</label>
+                        <label class="CatText">{{Result.action_recommendation_id}}  </label>
                     </div>
 
                     <div>
                         <label for="action_recommendation_category" class="CatText" >Action Recomendation Category : </label>
+                        <label class="CatText">  {{Result.action_recommendation_category}}</label>
                     </div>
 
                     <div>
                         <label for="action_recommendation_type" class="CatText" >Action Recomendation Type</label>
+                        <label class="CatText"> {{Result.action_recommendation_type}} </label>
                     </div>
                     
                     <div class="mb-4"></div>
@@ -76,22 +88,22 @@
 
                 <div>
                     <label for="usage_type" class="CatTextCof">Usage Type : </label>
-                    <label class="CatTextCof" ></label> <!--Result Equipment ID-->
+                    <label class="CatTextCof" >{{Result.usage_type}}</label> <!--Result Equipment ID-->
                 </div>
 
                 <div>
                     <label for="speed_category" class="CatTextCof">Speed Category : </label>
-                    <label class="CatTextCof"></label> <!--Result Equipment ID-->
+                    <label class="CatTextCof">{{Result.speed_category}}</label> <!--Result Equipment ID-->
                 </div>
 
                 <div>
                     <label for="load_category" class="CatTextCof">Load Category : </label>
-                    <label class="CatTextCof"></label> <!--Result Equipment ID-->
+                    <label class="CatTextCof">{{Result.load_category}}</label> <!--Result Equipment ID-->
                 </div>
 
                 <div>
                     <label for="floors_category" class="CatTextCof">Floors Category : </label>
-                    <label class="CatTextCof"></label> <!--Result Equipment ID-->
+                    <label class="CatTextCof">{{Result.floors_category}}</label> <!--Result Equipment ID-->
                 </div>
 
             </div>
@@ -103,11 +115,21 @@
             <div class="mx-auto EnterResult">
 
                 <label class="colorTitle" > Result</label>
-                <div class="ResultFont">
-                    <label >
-                        test tesing
-                    </label>
+                <div>
+                    <label class="colorTitle">{{Result.feedback}}</label>
                 </div>
+                {% if Result.feedback == 0 %} 
+                     <div class="ResultFont">
+                           <label >
+                            test 0
+                          </label>
+                     </div>
+                {%else %}  
+                     <div class="ResultFont">
+                         <label>
+                             test 1
+                         </label>
+                     </div>
 
 
         </div>

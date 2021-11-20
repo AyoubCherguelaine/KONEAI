@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #0071B9;
+    width: 100%;
+    height: 50px;
+}
+
+main {
+    background-color: #0071B9;
+    margin: 5%;
+}
+
+.Fomulaire {
+    padding: 5%;
+}
+
+.TitlePage {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.colorTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #0071B9;
+}
+
+.TitleCategory {
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.sousForm {
+    padding: 5% 10%;
+}
+
+
+
+.CategoryInter{
+
+    margin: 10% 0px;
+    width :100%;
+    height :max-content;
+
+
+    box-sizing: border-box;
+    border : 2px  ;
+   
+    border-radius : 5px;
+    border-color: #fff ;
+}
+
+.SubmitButton{
+    height: 70px;
+}
+
+/*case_id,equipment_id,completion_date,
+action_recommendation_id,
+action_recommendation_type,
+action_recommendation_category,equipment_area,
+usage_type,speed_category,load_category,
+floors_category,equipment_category,feedback
+*/
+
+.Cat{
+    padding :1%;
+    
+}
+
+.CatContent{
+    border: 2px solid #fff ;
+    border-radius:5px; 
+    padding: 2% 5%;
+}
+
+
+.CatText{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+}
+
+.LastCat{
+    text-align : center;
+
+
+}
+
+.CatTextCof{
+    margin : 1% 0%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    
+color: #FFFFFF;
+}
+
+.CatType{
+    text-align :center ;
+}
+
+.resultAI{
+    text-align : center;
+    
+}
+
+.EnterResult{
+    width : 70%;
+    height :70vh;
+    background-color : #FFFFFF;
+}
+
+
+.ResultFont{
+    padding : 4% ;
+    text-align:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 59px;
+    color: #000;
+}
